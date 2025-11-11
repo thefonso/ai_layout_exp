@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><name> - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title><name> - Portfolio & Blog</title>
+    <meta name="description" content="Personal portfolio and blog featuring Q CLI, MCP servers, and innovative development projects">
+    <link rel="stylesheet" href="alt01.css">
 </head>
 <body>
     <nav class="navbar">
@@ -13,6 +14,7 @@
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -22,7 +24,7 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Hi, I'm <name></h1>
-            <p>Full Stack Developer & Designer</p>
+            <p>Full Stack Developer & AI Enthusiast</p>
             <a href="#projects" class="cta-button">View My Work</a>
         </div>
     </section>
@@ -30,14 +32,58 @@
     <section id="about" class="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I'm a passionate developer with expertise in modern web technologies. I create innovative solutions that combine functionality with beautiful design.</p>
+            <img src="coolhat_thefonso.jpg" alt="Profile photo" class="profile-image">
+            <p>I'm a passionate developer with expertise in modern web technologies and AI tools. I create innovative solutions that combine functionality with beautiful design, specializing in AWS services, Q CLI, and MCP server integrations.</p>
             <div class="skills">
                 <span class="skill">JavaScript</span>
                 <span class="skill">React</span>
                 <span class="skill">Node.js</span>
                 <span class="skill">Python</span>
                 <span class="skill">AWS</span>
+                <span class="skill">Q CLI</span>
+                <span class="skill">MCP Servers</span>
             </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Latest Blog Post</h2>
+            <article class="blog-post">
+                <h3>Supercharging Development with Q CLI and MCP Servers</h3>
+                <p class="date">November 10, 2025</p>
+                
+                <p>The development landscape is evolving rapidly, and tools like <strong>Amazon Q CLI</strong> combined with <strong>Model Context Protocol (MCP) servers</strong> are revolutionizing how we build and interact with applications. Let me share some exciting possibilities and real-world use cases that will blow your mind!</p>
+
+                <p><strong>What Makes This Combo So Powerful?</strong></p>
+                <p>Q CLI isn't just another command-line tool – it's your AI-powered development companion that can understand context, execute commands, and even write code. When you add MCP servers to the mix, you're essentially giving Q CLI superpowers to connect with external services and data sources.</p>
+
+                <p><strong>Cool Things You Can Do:</strong></p>
+                <ul>
+                    <li><strong>GitHub Integration Magic:</strong> "Q, create a new repository, set up CI/CD, and push my current project" – all in one command!</li>
+                    <li><strong>AWS Resource Management:</strong> "Q, spin up a serverless API with DynamoDB backend and deploy it" – watch as it handles the entire infrastructure setup</li>
+                    <li><strong>Database Operations:</strong> "Q, analyze my database performance and suggest optimizations" – get instant insights and recommendations</li>
+                    <li><strong>File System Wizardry:</strong> "Q, organize my project files according to best practices and create documentation" – automated project cleanup and docs generation</li>
+                    <li><strong>Web Scraping & Analysis:</strong> "Q, fetch the latest tech trends from multiple sources and create a summary report" – instant market research</li>
+                </ul>
+
+                <p><strong>Fun Use Cases That'll Make You Smile:</strong></p>
+                <ul>
+                    <li><strong>The Lazy Developer's Dream:</strong> Set up entire development environments with a single conversation. "Q, I want to build a React app with authentication, database, and deployment pipeline" – boom, done!</li>
+                    <li><strong>Code Review Assistant:</strong> "Q, review my pull request and suggest improvements" – get AI-powered code reviews that actually understand your project context</li>
+                    <li><strong>Documentation Generator:</strong> "Q, create comprehensive documentation for my API endpoints" – never write boring docs manually again</li>
+                    <li><strong>Performance Detective:</strong> "Q, find bottlenecks in my application and suggest fixes" – automated performance optimization</li>
+                    <li><strong>Security Auditor:</strong> "Q, scan my code for security vulnerabilities and fix them" – proactive security management</li>
+                </ul>
+
+                <p><strong>Real-World Scenario:</strong></p>
+                <p>Imagine you're building a portfolio website (like this one!). Instead of manually setting up files, writing CSS, configuring deployment – you simply tell Q: "Create a responsive portfolio site with a blog, contact form, and deploy it to AWS." Q CLI, powered by MCP servers, handles everything from file creation to cloud deployment, while you focus on the creative aspects.</p>
+
+                <p><strong>The Future is Here:</strong></p>
+                <p>We're moving towards a world where developers spend more time solving problems and less time on repetitive tasks. Q CLI and MCP servers represent this shift – they're not replacing developers, they're amplifying our capabilities and making us more productive than ever.</p>
+
+                <p>Ready to dive in? Start experimenting with Q CLI and explore the growing ecosystem of MCP servers. The possibilities are endless, and the future of development is incredibly exciting!</p>
+            </article>
         </div>
     </section>
 
@@ -46,18 +92,18 @@
             <h2>Projects</h2>
             <div class="project-grid">
                 <div class="project-card">
-                    <h3>E-Commerce Platform</h3>
-                    <p>Full-stack web application with React and Node.js</p>
+                    <h3>Q CLI MCP Integration</h3>
+                    <p>Advanced workflow automation using Q CLI with custom MCP servers for seamless development experience</p>
                     <a href="#" class="project-link">View Project</a>
                 </div>
                 <div class="project-card">
-                    <h3>Mobile App</h3>
-                    <p>Cross-platform mobile application with React Native</p>
+                    <h3>AWS Serverless Dashboard</h3>
+                    <p>Real-time analytics dashboard built with AWS Lambda, DynamoDB, and React for monitoring cloud resources</p>
                     <a href="#" class="project-link">View Project</a>
                 </div>
                 <div class="project-card">
-                    <h3>Data Dashboard</h3>
-                    <p>Analytics dashboard with real-time data visualization</p>
+                    <h3>AI-Powered Code Assistant</h3>
+                    <p>Custom MCP server that provides intelligent code suggestions and automated refactoring capabilities</p>
                     <a href="#" class="project-link">View Project</a>
                 </div>
             </div>
@@ -67,15 +113,27 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2>Get In Touch</h2>
-            <p>Let's work together on your next project</p>
+            <p>Let's collaborate on innovative projects and explore the future of development together</p>
             <div class="contact-info">
-                <a href="mailto:<email>"><email></a>
+                <a href="mailto:<email>">Email</a>
                 <a href="https://linkedin.com/in/<name>">LinkedIn</a>
                 <a href="https://github.com/<name>">GitHub</a>
             </div>
         </div>
     </section>
 
-    <script src="script.js"></script>
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://bsky.app/profile/<name>">Bluesky</a>
+                <a href="https://linkedin.com/in/<name>">LinkedIn</a>
+                <a href="https://youtube.com/@<name>">YouTube</a>
+                <a href="https://github.com/<name>">GitHub</a>
+            </div>
+            <p>&copy; 2025-2026 <name>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="alt01.js"></script>
 </body>
 </html>

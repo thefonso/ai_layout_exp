@@ -6,7 +6,8 @@
 - Analytics integration
 
 ## Inspiration Resources
-- https://www.wandergates.com/
+- https://awwwards.com pull 12 examples from here
+- https://www.awwwards.com/websites/architecture/ pull 12 examples from here 
 - https://plusstudio.co/
 - https://hertzwerk.ch
 
@@ -18,6 +19,7 @@
 - Bold, retro-inspired designs
 - Visually captivating grids for project showcase
 - Interactive animations
+
 
 ## Footer
 - Social media: Bluesky, Linkedin, youtube, github
