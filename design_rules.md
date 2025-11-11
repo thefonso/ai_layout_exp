@@ -1,3 +1,18 @@
+# Portfolio Design Ideas for Blog/Article Platform
+
+## Layout concepts
+
+### 1. Artistic Layout
+- clean header with name/logo and navigation
+- animation in the header background
+- Featured article hero section
+- Grid-based article cards with thumbnails
+- Sidebar with categories and recent posts
+
+### 4. Header section
+- Personal branding/logo
+- Dark/light mode toggle
+
 ## Technical Features
 - Mobile-first responsive design
 - SEO optimization
