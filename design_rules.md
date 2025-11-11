@@ -6,8 +6,12 @@
 - Analytics integration
 
 ## Inspiration Resources
-- https://awwwards.com pull 12 examples from here
-- https://www.awwwards.com/websites/architecture/ pull 12 examples from here 
+- https://awwwards.com
+- https://www.awwwards.com/websites/architecture
+- https://www.awwwards.com/websites/experimental
+- https://dribbble.com/shots/popular/web-design
+- https://dribbble.com/shots/popular/product-design
+- https://dribbble.com/search/portfolio-websites
 - https://plusstudio.co/
 - https://hertzwerk.ch
 
@@ -20,6 +24,8 @@
 - Visually captivating grids for project showcase
 - Interactive animations
 
+## Hero section
+- Developer & Tech Explorer
 
 ## Footer
 - Social media: Bluesky, Linkedin, youtube, github
