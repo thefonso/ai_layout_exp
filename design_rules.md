@@ -27,6 +27,13 @@
 ## Hero section
 - Developer & Tech Explorer
 
+## Tools section
+- Amazon Q Developer, https://aws.amazon.com/q/developer/getting-started/#ide
+- mcp servers: 
+  - github, https://github.com/github/github-mcp-server
+  - fetch, https://github.com/modelcontextprotocol/servers/tree/main/src/fetch
+  - open-websearch, https://github.com/Aas-ee/open-websearch
+
 ## Footer
 - Social media: Bluesky, Linkedin, youtube, github
 - copyright: 2025 to 2026
