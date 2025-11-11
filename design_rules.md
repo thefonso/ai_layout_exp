@@ -31,8 +31,9 @@
 - https://hertzwerk.ch
 
 ## Color Schemes
-- Palette: #592341, #471A73, #BF6E0B, #BFA893, #733612,
+- Palette: #592341, #471A73, #BF6E0B, #BFA893, #733612, #6C513C
 - Creative: gradients
+- check for accessibility compliance. Use wave.webaim.org if needed.
 
 ## Design Elements
 - Bold, retro-inspired designs

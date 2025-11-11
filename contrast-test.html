@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WCAG Contrast Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test-section { margin: 20px 0; padding: 20px; border: 1px solid #ccc; }
+        .light-mode { background: #481D73; color: #F5F5F5; }
+        .dark-mode { background: #260F0B; color: #F5F5F5; }
+        .accent-light { background: #BF6D0A; color: #000; }
+        .accent-dark { background: #BFA893; color: #000; }
+        .card-light { background: rgba(71, 26, 115, 0.9); color: #F5F5F5; }
+        .card-dark { background: rgba(115, 54, 18, 0.9); color: #F5F5F5; }
+        .secondary { color: #6C513C; }
+    </style>
+</head>
+<body>
+    <h1>WCAG AA Contrast Testing</h1>
+    
+    <div class="test-section light-mode">
+        <h2>Light Mode - Main Background (#481D73) with White Text (#F5F5F5)</h2>
+        <p>This is normal text that should meet WCAG AA (4.5:1) contrast ratio.</p>
+        <small>This is small text that should meet WCAG AAA (7:1) contrast ratio.</small>
+    </div>
+    
+    <div class="test-section dark-mode">
+        <h2>Dark Mode - Main Background (#260F0B) with White Text (#F5F5F5)</h2>
+        <p>This is normal text that should meet WCAG AA (4.5:1) contrast ratio.</p>
+        <small>This is small text that should meet WCAG AAA (7:1) contrast ratio.</small>
+    </div>
+    
+    <div class="test-section accent-light">
+        <h2>Light Mode - Accent Background (#BF6D0A) with Black Text (#000)</h2>
+        <p>This is normal text for buttons and highlights.</p>
+    </div>
+    
+    <div class="test-section accent-dark">
+        <h2>Dark Mode - Accent Background (#BFA893) with Black Text (#000)</h2>
+        <p>This is normal text for buttons and highlights.</p>
+    </div>
+    
+    <div class="test-section card-light">
+        <h2>Light Mode - Card Background with White Text</h2>
+        <p>This is card content text.</p>
+        <span class="secondary">Secondary color text (#6C513C)</span>
+    </div>
+    
+    <div class="test-section card-dark">
+        <h2>Dark Mode - Card Background with White Text</h2>
+        <p>This is card content text.</p>
+        <span class="secondary">Secondary color text (#6C513C)</span>
+    </div>
+    
+    <h3>Manual Testing Instructions:</h3>
+    <ol>
+        <li>Visit <a href="https://webaim.org/resources/contrastchecker/" target="_blank">WebAIM Contrast Checker</a></li>
+        <li>Test each color combination above</li>
+        <li>Ensure all combinations meet WCAG AA (4.5:1) minimum</li>
+        <li>Large text (18pt+) only needs 3:1 ratio</li>
+    </ol>
+    
+    <h3>Color Combinations to Test:</h3>
+    <ul>
+        <li>Background #481D73 + Text #F5F5F5</li>
+        <li>Background #260F0B + Text #F5F5F5</li>
+        <li>Background #BF6D0A + Text #000000</li>
+        <li>Background #BFA893 + Text #000000</li>
+        <li>Background rgba(71,26,115,0.9) + Text #F5F5F5</li>
+        <li>Background rgba(115,54,18,0.9) + Text #F5F5F5</li>
+        <li>Background #F5F5F5 + Text #6C513C</li>
+    </ul>
+</body>
+</html>
